@@ -14,14 +14,16 @@ Summary: Provides an easy way to fill an environment with active bindings that c
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-bindrcpp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-bindrcpp-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-bindrcpp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-bindrcpp-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-bindrcpp-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-bindrcpp-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-bindrcpp-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-bindrcpp-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-bindrcpp-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-bindrcpp-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-bindrcpp-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-bindrcpp-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-bindrcpp/badges/version.svg)](https://anaconda.org/conda-forge/r-bindrcpp)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-bindrcpp/badges/downloads.svg)](https://anaconda.org/conda-forge/r-bindrcpp)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--bindrcpp-green.svg)](https://anaconda.org/conda-forge/r-bindrcpp) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-bindrcpp.svg)](https://anaconda.org/conda-forge/r-bindrcpp) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-bindrcpp.svg)](https://anaconda.org/conda-forge/r-bindrcpp) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-bindrcpp.svg)](https://anaconda.org/conda-forge/r-bindrcpp) |
 
 Installing r-bindrcpp
 =====================
