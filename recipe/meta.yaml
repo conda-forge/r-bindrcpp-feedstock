@@ -1,4 +1,4 @@
-{% set version = '0.2.2' %}
+{% set version = "0.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bindrcpp_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bindrcpp/bindrcpp_{{ version }}.tar.gz
-  sha256: 48130709eba9d133679a0e959e49a7b14acbce4f47c1e15c4ab46bd9e48ae467
+  sha256: 662dae785aee715855415f4e743281ccbf0832e426084dc2f0ca9c9c908ec9fa
 
 build:
-  merge_build_host: True  # [win]
-  number: 1005
+  merge_build_host: true  # [win]
+  number: 0
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
